@@ -1,0 +1,43 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    height: 25vh;
+    width: 100vw;
+    background-color: aqua;
+} */
+@media screen and (min-width:65px) {
+    header{
+        height: auto;
+        background-color: aqua;
+    }
+    body{
+        width: 100vw;
+        margin: 0;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
