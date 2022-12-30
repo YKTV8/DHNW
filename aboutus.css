@@ -9,10 +9,10 @@ header{
 } */
 html{
     /* Created with https://www.css-gradient.com */
-    background: rgba(250, 216, 203, 1.0);
-    background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(54, 38, 138));
-    background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
-    background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(54, 38, 138));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
 }
 a{
     color: #ffffff;
@@ -415,16 +415,11 @@ a{
     #footer{
         background-color: black;
         color: aliceblue;
-        height: 38vh;
+        height: 30vh;
     }
     
 }
 #footer, h4, p{
     padding-top: 5px;
     padding-left: 120px;
-}
-h6{
-    display: flex;
-    justify-content: center;
-    margin-bottom: -15px;
 }
