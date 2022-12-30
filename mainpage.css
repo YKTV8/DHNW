@@ -7,14 +7,41 @@ header{
     width: 100vw;
     background-color: aqua;
 } */
+html{
+    /* Created with https://www.css-gradient.com */
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+}
+a{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration:none;
+}
 @media screen and (min-width:65px) {
+    html{
+        margin-right: -75px;
+    }
     header{
         height: auto;
-        background-color: aqua;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5); */
+        /* Created with https://www.css-gradient.com */
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
     }
     body{
-        width: 100vw;
+        width: auto;
         margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        position: relative;
     }
     #nav, ul{
         display: flex;
@@ -34,10 +61,350 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/renovation-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/renovation2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/constr2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/constr3-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
     #footer{
         background-color: black;
         color: aliceblue;
         height: 30vh;
     }
     
+}
+@media screen and (min-width:267px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:450px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:1098px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+#footer, h4, p{
+    padding-top: 5px;
+    padding-left: 120px;
 }
