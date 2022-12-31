@@ -35,6 +35,12 @@ a{
     margin-bottom: 2px;
 
 }
+h3{
+    margin-left: 120px;
+}
+article{
+    width: 80vw;
+}
 @media screen and (min-width:65px) {
     html{
         margin-right: -75px;
@@ -415,13 +421,13 @@ a{
     #footer{
         background-color: black;
         color: aliceblue;
-        height: 38vh;
+        height: 42vh;
     }
     
 }
 #footer, h4, p{
     padding-top: 5px;
-    padding-left: 120px;
+    padding-left: 80px;
 }
 h6{
     display: flex;
