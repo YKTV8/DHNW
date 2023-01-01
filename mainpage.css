@@ -412,7 +412,7 @@ article{
     border: 0;
     cursor: pointer;
     padding: 0;
-    position: fixed;
+    position: absolute;
     height: 30px;
     width: 30px;
     }
