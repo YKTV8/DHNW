@@ -239,11 +239,14 @@ article{
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
      }
-    #footer{
+     #footer{
+        overflow-y: hidden;
+     }
+    footer{
         
         background-color: black;
         color: aliceblue;
-        height: 38vh;
+        height: 70vh;
         justify-content: left;
         padding-left: 25%;
     }
