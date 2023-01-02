@@ -630,6 +630,16 @@ article{
         display: flex;
         align-content: flex-start;
     }
+    h3{
+        padding-right: 100px;
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20% ;
+    }
     nav{
         background-color: white;
         padding: 20px;
@@ -775,10 +785,14 @@ article{
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
      }
-    #footer{
+    footer{
+        display: flex;
+        flex-direction: row;
         background-color: black;
         color: aliceblue;
         height: 42vh;
+        padding-top: 15px;
+        padding-left: 80px;
     }
     
 }
