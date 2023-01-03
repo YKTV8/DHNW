@@ -75,6 +75,7 @@ article{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        overflow-y: hidden;
     }
     /* li{
         padding: 15px;
