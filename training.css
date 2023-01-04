@@ -282,6 +282,22 @@ article{
         display: flex;
         align-content: center;
     }
+    a:hover{
+        color: rgba(0, 255, 225, 0.5);
+    }
+    .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(45, 78, 125, .5);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 200px;
+            width:200px;
+            /* padding-right: 20px;
+            margin-bottom: 20px; */
+            -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+            box-shadow: 5px 5px 17px 7px #000000;
+    }
     p{
         padding-right: 15px;
     }
