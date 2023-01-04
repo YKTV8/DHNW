@@ -11,6 +11,22 @@ a{
     font-size: 24px;
     text-decoration:none;
 }
+a:hover{
+    color: rgba(0, 255, 225, 0.5);
+}
+.box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        /* padding-right: 20px;
+        margin-bottom: 20px; */
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #000000;
+}
 .logo{
     font-size: 48px;
     padding: 25px;
@@ -176,11 +192,8 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    embed{
-        z-index: 10000000;
-    }
     .entry{
-        /* background-image: url(./images/dirtwork-unsplash.jpg); */
+        background-image: url(../images/saw-unsplash.jpg);
         height: 50vh;
         background-position: 50%;
         background-repeat: no-repeat;
@@ -197,7 +210,7 @@ article{
         display: flex;
         flex-direction: row;
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/renovation-unsplash.jpg);
+        background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -212,7 +225,7 @@ article{
         display: flex;
         flex-direction: row;
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/renovation2-unsplash.jpg);
+        background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -224,7 +237,7 @@ article{
     }
     .box-item3{
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/constr2-unsplash.jpg);
+        background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -236,7 +249,7 @@ article{
     }
     .box-item4{
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/constr3-unsplash.jpg);
+        background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -264,6 +277,7 @@ article{
     }
     
 }
+
 @media screen and (min-width:801px) and (max-width:3000px) {
     header{
         display: flex;
@@ -287,21 +301,8 @@ article{
         display: flex;
         align-content: center;
     }
-    a:hover{
-        color: rgba(0, 255, 225, 0.5);
-    }
-    .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
-            display: flex;
-            flex-direction: row;
-            background-color: rgba(45, 78, 125, .5);
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 200px;
-            width:200px;
-            /* padding-right: 20px;
-            margin-bottom: 20px; */
-            -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-            box-shadow: 5px 5px 17px 7px #000000;
+    p{
+        padding-right: 15px;
     }
     img{
         height: 200px;
@@ -328,9 +329,6 @@ article{
         align-items: center;
         justify-content: center;
         padding-right: 20% ;
-    }
-    p{
-        padding-right: 15px;
     }
     nav{
         background-color: white;
@@ -411,7 +409,7 @@ article{
         
     } */
     .entry{
-        background-image: url(./images/dirtwork-unsplash.jpg);
+        background-image: url(../images/saw-unsplash.jpg);
         height: 70vh;
         background-position: 50%;
         background-repeat: no-repeat;
@@ -428,7 +426,7 @@ article{
         display: flex;
         flex-direction: row;
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/renovation-unsplash.jpg);
+        background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -443,7 +441,7 @@ article{
         display: flex;
         flex-direction: row;
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/renovation2-unsplash.jpg);
+        background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -455,7 +453,7 @@ article{
     }
     .box-item3{
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/constr2-unsplash.jpg);
+        background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -467,7 +465,7 @@ article{
     }
     .box-item4{
         background-color: rgba(45, 78, 125, .5);
-        background-image: url(./images/constr3-unsplash.jpg);
+        background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -488,12 +486,3 @@ article{
     }
     
 }
-/* #footer, h4, p{
-    padding-top: 5px;
-    padding-left: 80px;
-} */
-/* h6{
-    display: flex;
-    justify-content: center;
-    margin-bottom: -15px;
-} */
