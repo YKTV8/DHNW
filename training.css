@@ -282,6 +282,9 @@ article{
         display: flex;
         align-content: center;
     }
+    p{
+        padding-right: 15px;
+    }
     img{
         height: 200px;
         width: 200px;

@@ -644,6 +644,9 @@ article{
         justify-content: center;
         padding-right: 20% ;
     }
+    p{
+        padding-right: 15px;
+    }
     nav{
         background-color: white;
         padding: 20px;

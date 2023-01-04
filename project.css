@@ -66,6 +66,9 @@ article{
     h3{
         margin-left: 30px;
     }
+    p{
+        padding-right: 15px;
+    }
     img{
         height: 150px;
         width: 150px;
@@ -281,6 +284,9 @@ article{
     a{
         display: flex;
         align-content: center;
+    }
+    p{
+        padding-right: 15px;
     }
     img{
         height: 200px;
