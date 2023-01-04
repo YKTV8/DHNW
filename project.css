@@ -32,6 +32,9 @@ a:hover{
     padding: 25px;
     margin: 25px;
 }
+.socialmedia,i{
+    padding-right: 10px;
+}
 #nav{
     
     background: #000000;
