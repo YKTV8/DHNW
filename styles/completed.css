@@ -326,6 +326,10 @@ article{
     h3{
         padding-right: 100px;
     }
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
     article{
         display: flex;
         flex-direction: row;
