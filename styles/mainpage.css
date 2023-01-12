@@ -182,17 +182,24 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    embed{
+    video{
         z-index: 10000000;
         width:520px;
+        height: 500px;
+        position: relative;
+
     
     }
     .entry{
-        background-image: url(../images/dirtwork-unsplash.jpg);
+        display: flex;
+        justify-content: center;
+        /* background-image: url(../images/dirtwork-unsplash.jpg); */
         height: 50vh;
-        background-position: 50%;
+        background-position: 80%;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-y: hidden;
+        padding-bottom: 60px;
     }
     .box-items-container{
         display: flex;
