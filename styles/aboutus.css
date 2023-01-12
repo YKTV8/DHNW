@@ -685,6 +685,20 @@ article{
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
      }
+     .aboutus{
+        margin: 10px;
+        border: 5px solid blue;
+        font-style: italic;
+     }
+     .profilepic{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+     }
+     img{
+        width: 250px;
+        height: 350px;
+     }
      #footer{
         overflow-y: hidden;
      }
@@ -692,7 +706,7 @@ article{
         
         background-color: black;
         color: aliceblue;
-        height: 70vh;
+        height: 35vh;
         justify-content: left;
         padding-left: 25%;
     }
@@ -910,4 +924,18 @@ article{
     h5{
         margin: 0;
     }
+    .aboutus{
+        margin: 10px;
+        border: 5px solid blue;
+        font-style: italic;
+     }
+     .profilepic{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+     }
+     img{
+        width: 400px;
+        height: 500px;
+     }
 }
