@@ -184,6 +184,8 @@ article{
     }
     embed{
         z-index: 10000000;
+        width:520px;
+    
     }
     .entry{
         background-image: url(../images/dirtwork-unsplash.jpg);
