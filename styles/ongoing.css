@@ -338,6 +338,7 @@ article{
         display: flex;
         flex-direction: column;
         margin: 10px;
+        margin-left: 300px;
         align-content: center;
         align-self: center;
         align-items: center;
