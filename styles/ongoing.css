@@ -336,7 +336,10 @@ article{
     }
     article{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        margin: 10px;
+        align-content: center;
+        align-self: center;
         align-items: center;
         justify-content: center;
         padding-right: 20% ;
@@ -425,6 +428,9 @@ article{
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .ongoing_pics{
+        padding-top: 5px;
     }
     .box-items-container{
         display: flex;
