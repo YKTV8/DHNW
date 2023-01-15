@@ -529,7 +529,7 @@ article{
     a{
         display: flex;
         align-content: center;
-        font-size: 40px;
+        font-size: 180%;
     }
     img{
         height: 200px;
