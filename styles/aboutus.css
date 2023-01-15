@@ -759,7 +759,7 @@ article{
         flex-direction: row;
         background-color: black;
         color: aliceblue;
-        height: 42vh;
+        height: fit-content;
         padding-top: 15px;
         padding-left: 80px;
     }

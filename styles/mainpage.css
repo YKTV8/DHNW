@@ -750,7 +750,7 @@ article{
         flex-direction: row;
         background-color: black;
         color: aliceblue;
-        height: vh;
+        height: fit-content;
         padding-top: 15px;
         padding-left: 80px;
     } 

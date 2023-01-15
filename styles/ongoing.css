@@ -280,7 +280,7 @@ article{
         
         background-color: black;
         color: aliceblue;
-        height: 35vh;
+        height: fit-content;
         justify-content: left;
         padding-left: 25%;
     }
@@ -501,7 +501,7 @@ article{
         flex-direction: row;
         background-color: black;
         color: aliceblue;
-        height: 42vh;
+        height: fit-content;
         padding-top: 15px;
         padding-left: 80px;
     }
@@ -715,7 +715,7 @@ article{
         flex-direction: row;
         background-color: black;
         color: aliceblue;
-        height: 42vh;
+        height: fit-content;
         padding-top: 15px;
         padding-left: 80px;
     }
