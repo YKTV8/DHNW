@@ -96,6 +96,9 @@ article{
     h3{
         margin-left: 30px;
     }
+    p{
+        font-size: 140%;
+    }
     img{
         height: 150px;
         width: 150px;
@@ -224,8 +227,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -239,8 +242,8 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -251,8 +254,8 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -263,8 +266,8 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -292,7 +295,7 @@ article{
 @media screen and (min-width:801px) and (max-width:1759px) {
     header{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         height: auto;
         width: auto;
@@ -435,7 +438,7 @@ article{
     }
     .box-items-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 150px;
@@ -447,8 +450,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 500px;
+        width:500px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -507,7 +510,7 @@ article{
 @media screen and (min-width:1760px) {
     header{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         height: auto;
         width: auto;
@@ -729,18 +732,4 @@ article{
         border-radius: 40px;
         font-style: italic;
      }
-     .profilepic{
-        display: flex;
-        justify-content:right;
-        background-image: url(../images/profile.jpg);
-        background-size: cover;
-        width: 400px;
-        height: 500px;
-        margin-left: 1000px;
-        margin-bottom: 20px;
-     }
-     /* img{
-        width: 400px;
-        height: 500px;
-     } */
 }

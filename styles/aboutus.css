@@ -95,6 +95,9 @@ article{
     h3{
         margin-left: 30px;
     }
+    p{
+        font-size: 140%;
+    }
     img{
         height: 150px;
         width: 150px;
@@ -307,6 +310,9 @@ article{
 }
 
 @media screen and (min-width:801px) and (max-width:1759px) {
+    *{
+        overflow-x: hidden;
+    }
     header{
         display: flex;
         flex-direction: row;
@@ -377,8 +383,8 @@ article{
     }
     nav ul{
         display: flex;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
+        flex-direction: row;
+        /* flex-wrap: wrap; */
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -399,10 +405,11 @@ article{
         transform: rotateY(360deg);
     }
     nav ul a{
+        font-size: 120%;
         list-style-type: none;
         position: relative;
         text-decoration: none;
-        margin: 0 40px;
+        margin: 0 15px;
     }
     .icon{
     /* background-color: #fff; */
@@ -537,7 +544,6 @@ article{
         background-size: cover;
         width: 400px;
         height: 500px;
-        margin-left: 1000px;
         margin-bottom: 20px;
      }
      /* img{
@@ -777,7 +783,7 @@ article{
         background-size: cover;
         width: 400px;
         height: 500px;
-        margin-left: 1000px;
+        margin-left:30%;
         margin-bottom: 20px;
      }
      /* img{
