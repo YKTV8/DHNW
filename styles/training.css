@@ -59,6 +59,8 @@ article{
     align-items: center;
     justify-content: center;
     /* padding-right: 20% ; */
+    border: 15px solid rgba(45, 78, 125, .5);
+        border-radius: 40px;
 }
 #nav h4::before{
     opacity: 1;
@@ -67,9 +69,6 @@ article{
 @media screen and (min-width:100px) and (max-width: 800px){
     *{
         overflow-x: hidden;
-    }
-    html{
-        margin-right: -75px;
     }
     header{
         height: auto;
@@ -131,6 +130,8 @@ article{
         flex-direction: column;
         padding-right: 20%;
         padding-left: 10%;
+        border: 15px solid rgba(45, 78, 125, .5);
+        border-radius: 40px;
     }
     nav{
         background-color: white;
@@ -179,6 +180,19 @@ article{
         text-decoration: none;
         margin: 0 10px;
     }
+    .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width:400px;
+        /* padding-right: 20px;
+        margin-bottom: 20px; */
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #000000;
+}
     .icon{
     /* background-color: #fff; */
     border: 0;
@@ -219,7 +233,7 @@ article{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 150px;
+        padding: 5%;
     }
     .box-item1{
         display: flex;
@@ -228,8 +242,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -243,8 +257,8 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -255,8 +269,8 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -267,8 +281,8 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 400px;
+        width:400px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -345,6 +359,8 @@ article{
         align-items: center;
         justify-content: center;
         padding-right: 20% ;
+        border: 15px solid rgba(45, 78, 125, .5);
+        border-radius: 40px;
     }
     nav{
         background-color: white;
@@ -389,6 +405,19 @@ article{
         text-decoration: none;
         margin: 0 10px;
     }
+    .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width:500px;
+        /* padding-right: 20px;
+        margin-bottom: 20px; */
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #000000;
+}
     .icon{
     /* background-color: #fff; */
     border: 0;
@@ -433,10 +462,10 @@ article{
     }
     .box-items-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 150px;
+        padding: 5%;
     }
     .box-item1{
         display: flex;
@@ -445,10 +474,10 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 500px;
+        width:500px;
         padding-right: 20px;
-        margin-right: 20px;
+        margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
 
@@ -460,10 +489,10 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 500px;
+        width:500px;
         padding-right: 20px;
-        margin-right: 20px;
+        margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
     }
@@ -472,10 +501,10 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 500px;
+        width:500px;
         padding-right: 20px;
-        margin-right: 20px;
+        margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
     }
@@ -484,10 +513,10 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300px;
-        width:300px;
+        height: 500px;
+        width:500px;
         padding-right: 20px;
-        margin-right: 20px;
+        margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
      }
@@ -552,6 +581,8 @@ article{
         align-items: center;
         justify-content: center;
         padding-right: 20% ;
+        border: 15px solid rgba(45, 78, 125, .5);
+        border-radius: 40px;
     }
     p{
         padding-right: 15px;
