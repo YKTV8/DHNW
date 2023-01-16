@@ -125,6 +125,19 @@ article{
         display: flex;
         align-content: flex-start;
     }
+    .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width:300px;
+        /* padding-right: 20px;
+        margin-bottom: 20px; */
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #000000;
+}
     article{
         display: flex;
         flex-direction: column;
@@ -227,8 +240,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 300px;
+        width:300px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -242,8 +255,8 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 300px;
+        width:300px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -254,8 +267,8 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 300px;
+        width:300px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -266,8 +279,8 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 300px;
+        width:300px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -450,8 +463,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 200px;
+        width:200px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -466,7 +479,7 @@ article{
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
-        width:200px;
+        width: 200px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -478,7 +491,7 @@ article{
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
-        width:200px;
+        width: 200px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -490,7 +503,7 @@ article{
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
-        width:200px;
+        width: 200px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -553,9 +566,10 @@ article{
     }
     article{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 40px;
         padding-right: 20% ;
     }
     p{
@@ -670,7 +684,6 @@ article{
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
-
     }
     .box-item2{
         display: flex;
