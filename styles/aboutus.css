@@ -10,7 +10,6 @@ html{
 }
 a{
     color: #ffffff;
-    /* font-size: 24px; */
     text-decoration:none;
 }
 .logo img{
@@ -311,9 +310,9 @@ article{
         padding-left: 25%;
     }
     h6{
+        font-size: 145%;
         display: flex;
-        justify-content: left;
-        margin-bottom: -15px;
+        justify-content: left; 
     }
     .profilepic{
         display: flex;
@@ -557,6 +556,11 @@ article{
     h5{
         margin: 0;
         font-size: 24;
+    }
+    h6{
+        font-size: 145%;
+        display: flex;
+        justify-content: left; 
     }
     .aboutus{
         margin: 50px;
@@ -804,6 +808,11 @@ article{
     h5{
         margin: 0;
         font-size: 24;
+    }
+    h6{
+        font-size: 145%;
+        display: flex;
+        justify-content: left; 
     }
     .aboutus{
         margin: 50px 500px;

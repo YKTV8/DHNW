@@ -106,6 +106,7 @@ article{
     }
     nav, ul{
         display: flex;
+        font-size: 12px;
         flex-direction: row;
         flex-wrap: wrap;
         overflow-y: hidden;
@@ -300,9 +301,9 @@ article{
         padding-left: 25%;
     }
     h6{
+        font-size: 145%;
         display: flex;
-        justify-content: left;
-        margin-bottom: -15px;
+        justify-content: left; 
     }
     
 }
@@ -329,6 +330,7 @@ article{
     a{
         display: flex;
         align-content: center;
+        font-size: 40px;
     }
     p{
         padding-right: 15px;
@@ -400,10 +402,11 @@ article{
         transform: rotateY(360deg);
     }
     nav ul a{
+        font-size: 120%;
         list-style-type: none;
         position: relative;
         text-decoration: none;
-        margin: 0 10px;
+        margin: 0 15px;
     }
     .box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
         display: flex;
@@ -529,7 +532,11 @@ article{
         padding-top: 15px;
         padding-left: 80px;
     }
-    
+    h6{
+        font-size: 145%;
+        display: flex;
+        justify-content: left; 
+    }
 }
 @media screen and (min-width:1760px) {
     header{
@@ -751,6 +758,11 @@ article{
     h5{
         margin: 0;
         font-size: 24;
+    }
+    h6{
+        font-size: 145%;
+        display: flex;
+        justify-content: left; 
     }
     .aboutus{
         margin: 50px 500px;
