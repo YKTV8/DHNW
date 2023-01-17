@@ -107,7 +107,7 @@ article{
     #nav{
         display: flex;
         align-content: flex-start;
-        height: 40vh;
+        height: 25vh;
         width: 100%;
     }
     button{
