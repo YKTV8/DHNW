@@ -1,10 +1,13 @@
 html{
     background-repeat: no-repeat;
     /* Created with https://www.css-gradient.com */
-    background: rgba(250, 216, 203, 1.0);
-    background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(34, 0, 206));
-    background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
-    background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
+    background: rgba(83, 83, 105, 1.0);
+    background: -webkit-radial-gradient(bottom right, rgb(83, 83, 105), rgb(34, 0, 206));
+    background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+    background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+}
+p{
+    color: #000000;
 }
 a{
     color: #ffffff;
@@ -48,6 +51,8 @@ h3{
     margin-left: 120px;
 }
 article{
+    background-color: #ffffff;
+    opacity: .85;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +66,10 @@ article{
     opacity: 1;
     color: #fff;
 }
+#footer p{
+    overflow-y: hidden;
+    color: aliceblue;
+ }
 @media screen and (min-width:100px) and (max-width: 800px){
     *{
         overflow-x: hidden;

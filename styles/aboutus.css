@@ -1,12 +1,14 @@
 /* main page css code below */
-
 html{
     background-repeat: no-repeat;
     /* Created with https://www.css-gradient.com */
-    background: rgba(250, 216, 203, 1.0);
-    background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(34, 0, 206));
-    background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
-    background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
+    background: rgba(83, 83, 105, 1.0);
+    background: -webkit-radial-gradient(bottom right, rgb(83, 83, 105), rgb(34, 0, 206));
+    background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+    background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+}
+p{
+    color: #000000;
 }
 a{
     color: #ffffff;
@@ -61,6 +63,10 @@ article{
     opacity: 1;
     color: #fff;
 }
+#footer p{
+    overflow-y: hidden;
+    color: aliceblue;
+ }
 @media screen and (min-width:100px) and (max-width: 800px){
     *{
         overflow-x: hidden;
@@ -257,6 +263,8 @@ article{
         box-shadow: 5px 5px 17px 7px #ffffff;
      }
      .aboutus{
+        background-color: #ffffff;
+        opacity: .85;
         margin: 50px;
         padding: 10px;
         border: 15px solid rgba(45, 78, 125, .5);
@@ -461,6 +469,8 @@ article{
         justify-content: left; 
     }
     .aboutus{
+        background-color: #ffffff;
+        opacity: .85;
         margin: 50px;
         padding: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
@@ -695,6 +705,8 @@ article{
         justify-content: left; 
     }
     .aboutus{
+        background-color: #ffffff;
+        opacity: .90;
         margin: 50px 500px;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
