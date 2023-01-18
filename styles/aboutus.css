@@ -16,8 +16,6 @@ a{
     border: 4px solid black;
     padding: 5px;
     margin: 5px;
-    /* width: 200px;
-    height: 200px; */
 }
 .socialmedia,i{
     padding-right: 10px;
@@ -44,8 +42,6 @@ a:hover{
         background-repeat: no-repeat;
         height: 200px;
         width:200px;
-        /* padding-right: 20px;
-        margin-bottom: 20px; */
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #000000;
 }
@@ -72,12 +68,6 @@ article{
     header{
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5); */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     .logo{
         display: flex;
@@ -108,11 +98,6 @@ article{
         flex-wrap: wrap;
         overflow-y: hidden;
     }
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default; 
-    } */
     #nav{
         display: flex;
         align-content: flex-start;
@@ -150,8 +135,6 @@ article{
         flex-direction: column;
         font-size: 12px;
         overflow-y: hidden;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
         padding-left: 50px;
         margin: 0;
         width: 0;
@@ -180,7 +163,6 @@ article{
         margin: 0 10px;
     }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -279,21 +261,11 @@ article{
         padding: 10px;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
-        /* border-radius: 10px; */
         font-style: italic;
         display: flex;
         flex-direction: column;
         justify-items: center;
      }
-     /* .profilepic{
-        display: flex;
-        justify-content: center;
-        justify-self: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-        align-self: center;
-     } */
      img{
         height: 150px;
         width: 150px;
@@ -327,8 +299,6 @@ article{
         background-size: cover;
         width: 300px;
         height: 400px;
-        /* margin-left:15%;
-        margin-bottom: 20px; */
      }
     
 }
@@ -343,12 +313,6 @@ article{
         flex-wrap: wrap;
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5) */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     body{
         width: auto;
@@ -412,7 +376,6 @@ article{
     nav ul{
         display: flex;
         flex-direction: row;
-        /* flex-wrap: wrap; */
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -440,7 +403,6 @@ article{
         margin: 0 15px;
     }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -470,13 +432,6 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    /* uncomment once navbar function is corected */
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default;
-        
-    } */
     .entry{
         background-image: url(../images/rooofing-unsplash.jpg);
         height: 70vh;
@@ -484,66 +439,6 @@ article{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    /* .box-items-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 150px;
-    }
-    .box-item1{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/renovation-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-right: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-
-    }
-    .box-item2{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/renovation2-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-right: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-    }
-    .box-item3{
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/constr2-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-right: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-    }
-    .box-item4{
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/constr3-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-right: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-     } */
     footer{
         display: flex;
         flex-direction: row;
@@ -586,10 +481,6 @@ article{
         height: 400px;
         margin-left: 35%;
      }
-     /* img{
-        width: 400px;
-        height: 500px;
-     } */
 }
 @media screen and (min-width:1760px) {
     header{
@@ -598,12 +489,6 @@ article{
         flex-wrap: wrap;
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5) */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     body{
         width: auto;
@@ -666,8 +551,6 @@ article{
     }
     nav ul{
         display: flex;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -694,7 +577,6 @@ article{
         margin: 0 40px;
     }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -724,13 +606,6 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    /* uncomment once navbar function is corected */
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default;
-        
-    } */
     .entry{
         background-image: url(../images/rooofing-unsplash.jpg);
         height: 70vh;
@@ -835,8 +710,4 @@ article{
         margin-left:30%;
         margin-bottom: 20px;
      }
-     /* img{
-        width: 400px;
-        height: 500px;
-     } */
 }

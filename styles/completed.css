@@ -30,11 +30,6 @@ a:hover{
     padding: 5px;
     margin: 5px;
 }
-/* .logo{
-    font-size: 48px;
-    padding: 25px;
-    margin: 25px;
-} */
 .socialmedia,i{
     padding-right: 10px;
 }
@@ -56,7 +51,6 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right: 20% ; */
     border: 15px solid rgba(45, 78, 125, .5);
     border-radius: 40px;
     margin: 2% 10%;
@@ -74,12 +68,6 @@ article{
     header{
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5); */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     .logo{
         display: flex;
@@ -110,11 +98,6 @@ article{
         flex-wrap: wrap;
         overflow-y: hidden;
     }
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default; 
-    } */
     #nav{
         display: flex;
         align-content: flex-start;
@@ -150,8 +133,6 @@ article{
         flex-direction: column;
         font-size: 12px;
         overflow-y: hidden;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
         padding-left: 50px;
         margin: 0;
         width: 0;
@@ -190,7 +171,6 @@ article{
         box-shadow: 5px 5px 17px 7px #000000;
 }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -310,12 +290,6 @@ article{
         flex-wrap: wrap;
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5) */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     body{
         width: auto;
@@ -384,8 +358,6 @@ article{
     }
     nav ul{
         display: flex;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -420,13 +392,10 @@ article{
         background-repeat: no-repeat;
         height: 500px;
         width:500px;
-        /* padding-right: 20px;
-        margin-bottom: 20px; */
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #000000;
 }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -453,13 +422,6 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    /* uncomment once navbar function is corected */
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default;
-        
-    } */
     .entry{
         background-image: url(../images/pleasanthill-unsplash.jpg);
         height: 70vh;
@@ -545,12 +507,6 @@ article{
         flex-wrap: wrap;
         height: auto;
         width: auto;
-        /* background-color: rgba(45, 78, 125, .5) */
-        /* Created with https://www.css-gradient.com */
-        /* background: rgba(250, 216, 203, 1.0);
-        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
-        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
     }
     body{
         width: auto;
@@ -612,8 +568,6 @@ article{
     }
     nav ul{
         display: flex;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -640,7 +594,6 @@ article{
         margin: 0 40px;
     }
     .icon{
-    /* background-color: #fff; */
     border: 0;
     cursor: pointer;
     padding: 0;
@@ -670,13 +623,6 @@ article{
     nav.active .icon .line2{
         transform: rotate(765deg) translateY(-5.5px);
     }
-    /* uncomment once navbar function is corected */
-    /* li{
-        padding: 15px;
-        list-style-type: none;
-        cursor: default;
-        
-    } */
     .entry{
         background-image: url(../images/pleasanthill-unsplash.jpg);
         height: 70vh;
@@ -781,8 +727,4 @@ article{
         margin-left: 1000px;
         margin-bottom: 20px;
      }
-     /* img{
-        width: 400px;
-        height: 500px;
-     } */
 }
