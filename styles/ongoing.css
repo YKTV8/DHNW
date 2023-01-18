@@ -45,9 +45,11 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right: 20% ; */
+    padding-right: 5%;
+    padding-left: 5%;
     border: 15px solid rgba(45, 78, 125, .5);
-        border-radius: 40px;
+    border-radius: 40px;
+    margin: 2% 10%;
 }
 #nav h4::before{
     opacity: 1;
@@ -56,9 +58,6 @@ article{
 @media screen and (min-width:100px) and (max-width: 800px){
     *{
         overflow-x: hidden;
-    }
-    html{
-        margin-right: -75px;
     }
     header{
         height: auto;
@@ -130,8 +129,8 @@ article{
     article{
         display: flex;
         flex-direction: column;
-        /* padding-right: 20%;
-        padding-left: 10%; */
+        padding-right: 5%;
+        padding-left: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
@@ -350,7 +349,8 @@ article{
         display: flex;
         flex-direction: column;
         margin: 10px;
-        padding: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
         align-content: center;
         align-self: center;
         align-items: center;
@@ -585,7 +585,8 @@ article{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }

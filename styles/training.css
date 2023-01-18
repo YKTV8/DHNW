@@ -58,9 +58,11 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right: 20% ; */
+    padding-right: 5%;
+    padding-left: 5%;
     border: 15px solid rgba(45, 78, 125, .5);
-        border-radius: 40px;
+    border-radius: 40px;
+    margin: 2% 10%;
 }
 #nav h4::before{
     opacity: 1;
@@ -129,8 +131,8 @@ article{
     article{
         display: flex;
         flex-direction: column;
-        padding-right: 20%;
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
@@ -357,10 +359,11 @@ article{
     }
     article{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-right: 20% ;
+        padding-right: 5%;
+        padding-left: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
@@ -584,10 +587,11 @@ article{
     }
     article{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-right: 20% ;
+        padding-right: 5%;
+        padding-left: 5%;
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }

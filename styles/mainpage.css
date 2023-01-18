@@ -40,6 +40,7 @@ article{
     /* padding-right: 20% ; */
     border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
+        margin: 2% 10%;
 }
 #nav h4::before{
     opacity: 1;
@@ -620,9 +621,10 @@ article{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding-right: 20% ;
+        /* padding-right: 20% ; */
         border: 15px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
+        /* margin: 2% 10%; */
     }
     p{
         padding-right: 15px;
