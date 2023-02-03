@@ -58,9 +58,9 @@ article{
     justify-content: center;
     padding-right: 5%;
     padding-left: 5%;
-    border: 15px solid rgba(45, 78, 125, .5);
+    border: 5px solid rgba(45, 78, 125, .5);
     border-radius: 40px;
-    margin: 2% 10%;
+    margin: 2%;
 }
 #nav h4::before{
     opacity: 1;
@@ -124,7 +124,7 @@ article{
         flex-direction: column;
         padding-right: 5%;
         padding-left: 5%;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
     nav{
@@ -178,8 +178,8 @@ article{
         background-color: rgba(45, 78, 125, .5);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 250px;
+        width: 250px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #000000;
 }
@@ -231,8 +231,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 200px;
+        width:200px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -246,8 +246,8 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 200px;
+        width:200px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -258,8 +258,8 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 200px;
+        width:200px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -270,8 +270,8 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        width:400px;
+        height: 200px;
+        width:200px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -286,7 +286,7 @@ article{
         color: aliceblue;
         height: fit-content;
         justify-content: left;
-        padding-left: 25%;
+        padding-left: 5%;
     }
     h6{
         font-size: 145%;

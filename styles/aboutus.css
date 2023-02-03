@@ -209,65 +209,12 @@ article{
         justify-content: center;
         padding: 150px;
     }
-    .box-item1{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/renovation-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-bottom: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-
-    }
-    .box-item2{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/renovation2-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-bottom: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-    }
-    .box-item3{
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/constr2-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-bottom: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-    }
-    .box-item4{
-        background-color: rgba(45, 78, 125, .5);
-        background-image: url(../images/constr3-unsplash.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
-        padding-right: 20px;
-        margin-bottom: 20px;
-        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
-        box-shadow: 5px 5px 17px 7px #ffffff;
-     }
      .aboutus{
         background-color: #ffffff;
         opacity: .85;
-        margin: 50px;
-        padding: 10px;
-        border: 15px solid rgba(45, 78, 125, .5);
+        margin: 10px;
+        padding: 10px 10px 0px 10px;
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
         font-style: italic;
         display: flex;
@@ -279,16 +226,17 @@ article{
         width: 150px;
         justify-items: center;
     }
-     #footer{
+     /* #footer{
         overflow-y: hidden;
-     }
+     } */
     footer{
         
         background-color: black;
         color: aliceblue;
-        height: 35vh;
+        height: 55vh;
         justify-content: left;
-        padding-left: 25%;
+        padding-left: 5%;
+        overflow-y: hidden;
     }
     h6{
         font-size: 145%;
