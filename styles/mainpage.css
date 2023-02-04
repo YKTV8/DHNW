@@ -34,7 +34,7 @@ a{
 
 }
 h3{
-    margin-left: 120px;
+    margin-left: 0px;
 }
 article{
     background-color: #ffffff;
@@ -43,8 +43,8 @@ article{
     align-items: center;
     justify-content: center;
     border: 5px solid rgba(45, 78, 125, .5);
-    border-radius: 40px;
-    margin: 2%;
+        border-radius: 40px;
+        margin: 2% 10%;
 }
 #nav h4::before{
     opacity: 1;
@@ -78,7 +78,7 @@ article{
         margin-left: 0px;
     }
     p{
-        font-size: 85%;
+        font-size: 140%;
     }
     img{
         height: 150px;
@@ -104,8 +104,8 @@ article{
     article{
         display: flex;
         flex-direction: column;
-        padding-right: 5%;
-        padding-left: 5%;
+        padding-right: 2%;
+        padding-left: 2%;
         border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
@@ -160,8 +160,8 @@ article{
         background-color: rgba(45, 78, 125, .5);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #000000;
 }
@@ -212,7 +212,8 @@ article{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 150px;
+        padding: 15px;
+        
     }
     .box-item1{
         display: flex;
@@ -221,9 +222,10 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -236,9 +238,10 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -248,9 +251,10 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -260,8 +264,8 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
-        width:200px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -269,6 +273,7 @@ article{
      }
      #footer{
         overflow-y: hidden;
+        font-size: 50%;
      }
     footer{
         
@@ -276,7 +281,7 @@ article{
         color: aliceblue;
         height: fit-content;
         justify-content: center;
-        padding-left: 5%;
+        padding-left: 25%;
     }
     h6{
         font-size: 145%;
@@ -322,8 +327,8 @@ article{
             background-color: rgba(45, 78, 125, .5);
             background-size: cover;
             background-repeat: no-repeat;
-            height: 500px;
-            width:500px;
+            height: 300px;
+            width:300px;
             -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
             box-shadow: 5px 5px 17px 7px #000000;
     }
@@ -344,7 +349,7 @@ article{
         align-content: flex-start;
     }
     h3{
-        padding-right: 100px;
+        /* padding-right: 100px; */
         font-size: 36px;
     }
     article{
@@ -352,14 +357,14 @@ article{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-right: 20% ;
-        padding-left: 20%;
+        padding-right: 2% ;
+        padding-left: 2%;
         border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
     p{
         padding-right: 15px;
-        font-size: 36px;
+        font-size: 18px;
     }
     nav{
         background-color: white;
@@ -435,15 +440,26 @@ article{
         transform: rotate(765deg) translateY(-5.5px);
     }
     .entry{
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        background-color: #000000;
+        background-position: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y: hidden;
+        padding-bottom: 60px;
+    }
+    /* .entry{
         height: 90vh;
         background-color: #000000;
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
     .box-items-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         padding: 50px;
@@ -455,9 +471,10 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -470,9 +487,10 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -482,9 +500,10 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -494,12 +513,15 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+     #footer{
+        overflow-y: hidden;
      }
     footer{
         display: flex;
@@ -520,7 +542,7 @@ article{
         margin-bottom: -15px;
     }
 }
-@media screen and (min-width:1760px) {
+@media (min-width:1760px) {
     header{
         display: flex;
         flex-direction: row;
@@ -535,9 +557,11 @@ article{
     }
     video{
         display: flex;
-        padding-left: 17%;
-        padding-top: 2%;
-        background-color: #000000;  
+        /* position: absolute; */
+        padding-left: 1%;
+        /* padding-top: 2%; */
+        background-color: #000000;
+        top: 50%; 
     }
     a:hover{
         color: rgba(0, 255, 225, 0.5);
@@ -548,8 +572,8 @@ article{
             background-color: rgba(45, 78, 125, .5);
             background-size: cover;
             background-repeat: no-repeat;
-            height: 500px;
-            width:500px;
+            height: 350px;
+            width:350px;
             -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
             box-shadow: 5px 5px 17px 7px #000000;
     }
@@ -575,21 +599,21 @@ article{
         align-content: flex-start;
     }
     h3{
-        padding-right: 100px;
+        padding-right: 0px;
         font-size: 36px;
     }
     article{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
         /* margin: 2% 10%; */
     }
     p{
-        padding-right: 15px;
-        font-size: 36px;
+        /* padding-right: 15px; */
+        font-size: 18px;
     }
     nav{
         background-color: white;
@@ -664,15 +688,16 @@ article{
     }
     .entry{
         height: 90vh;
-        background-color: #000000;
-
+        background-color: black;
+        /* opacity: 0.8;
+        background: linear-gradient(135deg, #ffffff 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #ffffff 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #ffffff 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #3244e0 25%, #8989bb 25%) 0px 0/ 20px 20px; */
     }
     .box-items-container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 150px;
+        /* padding: 150px; */
     }
     .box-item1{
         display: flex;
@@ -681,8 +706,8 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -696,8 +721,8 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -708,8 +733,8 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
@@ -720,12 +745,15 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+     #footer{
+        overflow-y: hidden;
      }
     footer{
         display: flex;
@@ -737,10 +765,12 @@ article{
         padding-left: 80px;
     } 
     h4{
-        font-size: 24px;
+        font-size: 18px;
+        margin: 0;
     }
     h6{
         font-size: 145%;
+        margin: 0;
         display: flex;
         justify-content: left;
         
