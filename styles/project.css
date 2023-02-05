@@ -80,7 +80,7 @@ article{
         margin-left: 0px;
     }
     p{
-        font-size: 85%;
+        font-size: 18px;
     }
     img{
         height: 150px;
@@ -449,6 +449,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -464,6 +465,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -476,6 +478,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -488,6 +491,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -557,7 +561,7 @@ article{
     p{
         padding-right: 0%;
         padding-left: 0%;
-        font-size: 36px;
+        font-size: 18px;
     }
     nav{
         background-color: white;
@@ -653,7 +657,7 @@ article{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 150px;
+        /* padding: 150px; */
     }
     .box-item1{
         display: flex;
@@ -665,6 +669,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -680,6 +685,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -692,6 +698,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -704,6 +711,7 @@ article{
         height: 250px;
         width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;

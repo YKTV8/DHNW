@@ -294,6 +294,10 @@ article{
         margin: 0;
         overflow-x: hidden;
     }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
     a{
         display: flex;
         align-content: center;
@@ -336,7 +340,7 @@ article{
         align-self: center;
         align-items: center;
         justify-content: center;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
     nav{
@@ -387,8 +391,8 @@ article{
         background-color: rgba(45, 78, 125, .5);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 275px;
+        width:275px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #000000;
 }
@@ -431,7 +435,7 @@ article{
     }
     .box-items-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         padding: 150px;
@@ -443,9 +447,10 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -458,9 +463,10 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -470,9 +476,10 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -482,9 +489,10 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-bottom: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -550,7 +558,7 @@ article{
         justify-content: center;
         padding-right: 5%;
         padding-left: 5%;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
     }
     p{
@@ -649,9 +657,10 @@ article{
         background-image: url(../images/renovation-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -663,9 +672,10 @@ article{
         background-image: url(../images/renovation2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -675,9 +685,10 @@ article{
         background-image: url(../images/constr2-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
@@ -687,9 +698,10 @@ article{
         background-image: url(../images/constr3-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
-        width:500px;
+        height: 250px;
+        width:250px;
         padding-right: 20px;
+        margin-right: 2%;
         margin-right: 20px;
         -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
         box-shadow: 5px 5px 17px 7px #ffffff;
