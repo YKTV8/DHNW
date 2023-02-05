@@ -307,6 +307,10 @@ article{
         margin: 0;
         overflow-x: hidden;
     }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
     video{
         display: flex;
         padding-top: 2%;

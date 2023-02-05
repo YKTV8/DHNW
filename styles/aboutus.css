@@ -235,7 +235,7 @@ article{
         color: aliceblue;
         height: 55vh;
         justify-content: left;
-        padding-left: 5%;
+        padding-left: 0%;
         overflow-y: hidden;
     }
     h6{
@@ -275,6 +275,10 @@ article{
         margin: 0;
         overflow-x: hidden;
     }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
     a{
         display: flex;
         align-content: center;
@@ -311,9 +315,9 @@ article{
         border-radius: 40px;
     }
     p{
-        padding-right: 5%;
-        padding-left: 5%;
-        font-size: 36px;
+        padding-right: 0%;
+        padding-left: 0%;
+        font-size: 18px;
     }
     nav{
         background-color: white;
@@ -395,12 +399,15 @@ article{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    #footer{
+        overflow-y: hidden;
+    }
     footer{
         display: flex;
         flex-direction: row;
         background-color: black;
         color: aliceblue;
-        height: 42vh;
+        height: fit-content;
         padding-top: 15px;
         padding-left: 80px;
     }
@@ -421,7 +428,7 @@ article{
         opacity: .85;
         margin: 50px;
         padding: 5%;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
         font-style: italic;
      }
@@ -491,7 +498,7 @@ article{
     p{
         padding-right: 5%;
         padding-left: 5%;
-        font-size: 36px;
+        font-size: 18px;
     }
     nav{
         background-color: white;
@@ -656,7 +663,7 @@ article{
         background-color: #ffffff;
         opacity: .90;
         margin: 50px 500px;
-        border: 15px solid rgba(45, 78, 125, .5);
+        border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
         font-style: italic;
      }
