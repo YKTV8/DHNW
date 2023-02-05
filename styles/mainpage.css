@@ -543,7 +543,6 @@ article{
         font-size: 100%;
         display: flex;
         justify-content: left;
-        margin-bottom: -15px;
     }
 }
 @media (min-width:1760px) {
