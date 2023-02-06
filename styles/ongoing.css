@@ -6,6 +6,10 @@ html{
     background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
     background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
 }
+@keyframes spin {
+    from {background-color: rgba(34, 0, 206, 1.0);}
+    to{background-color: rgba(83, 83, 105, 1.0);}
+  }
 p{
     color: #000000;
 }
@@ -69,6 +73,13 @@ article{
     .logo{
         display: flex;
         justify-content: center;
+        /* background: -webkit-radial-gradient(bottom right, rgb(83, 83, 105), rgb(34, 0, 206)); */
+        /* background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0)); */
+        background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+        animation-name: spin;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
     }
     .logo img{
         border: 4px solid black;
@@ -284,7 +295,7 @@ article{
 @media screen and (min-width:801px) and (max-width:1759px) {
     header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         height: auto;
         width: auto;
@@ -297,6 +308,13 @@ article{
     .logo{
         display: flex;
         justify-content: center;
+        /* background: -webkit-radial-gradient(bottom right, rgb(83, 83, 105), rgb(34, 0, 206)); */
+        /* background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0)); */
+        background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+        animation-name: spin;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
     }
     a{
         display: flex;
