@@ -27,15 +27,14 @@ a{
     padding-right: 10px;
 }
 #nav{
-    
+    background-color: #f1f1f1;
     background: #000000;
-    background: -moz-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
-    background: -webkit-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
-    background: linear-gradient(to bottom, #000000 0%, #000000 50%, #797979 100%);
+    background: -moz-linear-gradient(top left, #000000 0%, #000000 15%, #797979 100%);
+    background: -webkit-linear-gradient(top left, #000000 0%, #000000 15%, #797979 100%);
+    background: linear-gradient(to bottom right, #000000 0%, #000000 15%, #797979 100%);
     height: 80px;
     width: 100vw;
     margin-bottom: 2px;
-
 }
 h3{
     margin-left: 0px;
@@ -101,6 +100,7 @@ article{
         flex-direction: row;
         flex-wrap: wrap;
         overflow-y: hidden;
+        padding-left: 15%;
     }
     #nav{
         display: flex;
@@ -412,6 +412,7 @@ article{
     }
     nav.active ul{
         width: 100%;
+        margin-left: 15%;
     }
     nav ul li{
         align-items: center;
@@ -796,4 +797,5 @@ article{
         justify-content: left;
         
     }
+    
 }
