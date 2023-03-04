@@ -1,10 +1,10 @@
 html{
     background-repeat: no-repeat;
     /* Created with https://www.css-gradient.com */
-    background: rgba(83, 83, 105, 1.0);
-    background: -webkit-radial-gradient(bottom right, rgb(83, 83, 105), rgb(34, 0, 206));
-    background: -moz-radial-gradient(bottom right, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
-    background: radial-gradient(to top left, rgba(83, 83, 105, 1.0), rgba(34, 0, 206, 1.0));
+    background: #007DE8;
+    background: -webkit-radial-gradient(bottom right, #A1C3DB, #007DE8);
+    background: -moz-radial-gradient(bottom right, #A1C3DB, #007DE8);
+    background: radial-gradient(to top left, #A1C3DB, #007DE8);
 }
 @keyframes spin {
     from {background-color: #007DE8;}
@@ -19,7 +19,7 @@ a{
     text-decoration:none;
 }
 .logo img{
-    border: 4px solid black;
+    /* border: 4px solid black; */
     padding: 5px;
     margin: 5px;
     width: 50vw;
@@ -30,9 +30,9 @@ a{
 #nav{
     background-color: #f1f1f1;
     background: #000000;
-    background: -moz-linear-gradient(top left, #000000 0%, #000000 15%, #797979 100%);
+    /* background: -moz-linear-gradient(top left, #000000 0%, #000000 15%, #797979 100%);
     background: -webkit-linear-gradient(top left, #000000 0%, #000000 15%, #797979 100%);
-    background: linear-gradient(to bottom right, #000000 0%, #000000 15%, #797979 100%);
+    background: linear-gradient(to bottom right, #000000 0%, #000000 15%, #797979 100%); */
     height: 80px;
     width: 100vw;
     margin-bottom: 2px;
@@ -48,7 +48,7 @@ article{
     justify-content: center;
     border: 5px solid rgba(45, 78, 125, .5);
     border-radius: 40px;
-    margin: 2% 1%;
+
 }
 #nav h4::before{
     opacity: 1;
@@ -120,6 +120,7 @@ article{
         padding-left: 2%;
         border: 5px solid rgba(45, 78, 125, .5);
         border-radius: 40px;
+        margin: 2% 5%;
     }
     nav{
         background-color: white;
